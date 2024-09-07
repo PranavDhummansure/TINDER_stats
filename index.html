@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .detailsContainer{
+            background: linear-gradient(to bottom,transparent,rgba(0, 0, 0, 0.493));
+        }
+    </style>
+
+</head>
+<body>
+    <div class=" w-full h-screen bg-black text-white font-['helvetica_now_display']">
+        <div class="imagecontainer w-full h-screen relative">
+            <div class="maincard w-full h-screen  z-[3] absolute">
+                <img class="w-full h-full object-cover " src="" alt="">
+            </div>
+            <div class="incomingcard w-full h-screen  z-[2] absolute">
+                <img class="w-full h-full object-cover " src="" alt="">
+            </div>
+        </div>
+        <div class="w-full h-screen z-[4] absolute top-0 left-0 flex flex-col justify-between ">
+            <div class="navbar flex gap-10 items-center justify-center py-4">
+                <div class="prfimg w-[4rem] h-[4rem] rounded-full bg-green-500 overflow-hidden">
+                    <img class="h-full w-full object-cover" src="" alt="">
+                </div>
+                    <h3 class="font-regular text-xl tracking-tight relative">They liked you</h3>
+                    <div class="chaticon w-[4rem] h-[4rem] rounded-full bg-white/30 flex items-center justify-center">
+                        <i class="ri-chat-3-fill  text-2xl opacity-90"></i>
+                        <div class="badge absolute rounded-full bg-red-600 flex items-center justify-center  -translate-y-[25px] translate-x-[26px]">
+                            <h5 class="text-white text-xl px-2">7</h5>
+                        </div>
+                    </div>
+
+                
+            </div>
+            <div class="detailsContainer">
+            <div class="details w-full mt-2 px-6">
+                <div class="element  location flex gap-4  items-center">
+                    <i class="ri-corner-left-up-line flex text-black font-semibold bg-white rounded-full justify-center items-center w-[2rem] h-[2rem] "></i>
+                    <h3 class="text-white">DELHI , INDIA</h3>
+                </div>
+                <div class="element name flex gap-4 mt-2">
+                    <h1 class="text-6xl text-white">Niharika</h1>
+                    <h1 class="text-6xl opacity-60 text-white ">20</h1>
+                </div>
+                <div class="element tags flex gap-3">
+                    
+                    
+                    
+            </div>
+            <div class="element bio">
+                
+                <h3 class="text-white/50 text-xl mt-1 ">Bio</h3>
+                <p class="text-white/50 text-sm mt-2 "></p>
+            </div>
+            <div class="element btn flex gap-3 mt-2 mb-5">
+                <button class="deny bg-white/70 w-1/2 rounded-full px-2 py-2 text-2xl">
+                    <i class="ri-close-line"></i>
+                </button>
+                <button class="accept bg-red-600 w-1/2 rounded-full px-2 py-2 text-2xl  ">
+                    <i class="ri-heart-3-fill"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+   
+    </div> 
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
